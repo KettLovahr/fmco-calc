@@ -51,6 +51,6 @@ input[type="submit"], button {
     font-size: 16px;
 }
 
-#valor {
+.valor {
     text-align: right;
 }
