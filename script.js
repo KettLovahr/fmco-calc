@@ -30,5 +30,5 @@ function calcular() {
 
     el_inss.innerText = "R$ " + inss.toFixed(2)
     el_fgts.innerText = "R$ " + (salario * 0.08).toFixed(2)
-    el_liquido.innerText = "R$ " + (salario - inss - (salario * 0.08)).toFixed(2)
+    el_liquido.innerText = "R$ " + (salario - inss).toFixed(2)
 }
